@@ -1,6 +1,4 @@
-let $ =require('jquery');
-import 'bootstrap';
-import '../css/style.css';
+import $ from 'jquery';
 
 
 $(document).ready(function () {
