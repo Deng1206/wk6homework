@@ -1,43 +1,3 @@
-html {
-	background-color: #608699;
-	line-height: 1.7;
-	box-sizing: border-box;
-}
-
-*, *:before, *:after {
-	box-sizing: inherit;
-}
-
-body {
-	font-family: 'PTSans', Arial, sans-serif;
-	font-size: 14px;
-	margin: 0;
-	padding: 0;
-}
-
-h1, h2, h3, h4, h5, h6, p {
-	margin-top: 0;
-}
-
-img {
-	max-width: 100%;
-	height: auto;
-}
-
-a {
-	text-decoration: none;
-}
-
-.show-large {
-	display: none;
-}
-
-/* Main Column Typography */
-
-.section {
-	padding: 0;
-}
-
 @media screen and (min-width: 767px) {
 
 	.section {
@@ -60,6 +20,7 @@ a {
 	margin: 0;
 	overflow: hidden;
 }
+
 
 @media screen and (min-width: 767px) {
 
@@ -121,7 +82,6 @@ a {
 }
 
 /* Site Navigation */
-
 .nav {
 	margin-top: 20px;
 }
@@ -135,6 +95,7 @@ a {
 	top: 15px;
 	right: 10px;
 }
+
 
 .nav__menu:hover {
 	background-color: darkgray;
@@ -210,7 +171,6 @@ a {
 }
 
 /* End Site Navigation */
-
 .content-area {
 	background-color: #FFF;
 	padding-bottom: 40px;
@@ -228,6 +188,7 @@ a {
 		padding-right: 40px;
 	}
 }
+
 
 .sidebar {
 	color: #999;
@@ -260,7 +221,6 @@ a {
 }
 
 /* Footer Style */
-
 .footer {
 	text-align: center;
 	font-size: 85%;
@@ -270,7 +230,6 @@ a {
 }
 
 /* Grid Style */
-
 .row {
 	display: flex;
 	flex-wrap: wrap;
@@ -283,25 +242,15 @@ a {
 }
 
 .col-xs-11 {width: 91.662%}
-
 .col-xs-10 {width: 83.332%;}
-
 .col-xs-9 {width: 75%;}
-
 .col-xs-8 {width: 66.662%;}
-
 .col-xs-7 {width: 58.331%}
-
 .col-xs-6 {width: 50%;}
-
 .col-xs-5 {width: 41.662%}
-
 .col-xs-4 {width: 33.332%;}
-
 .col-xs-3 {width: 25%;}
-
 .col-xs-2 {width: 16.662%;}
-
 .col-xs-1 {width: 8.332%;}
 
 @media screen and (min-width: 768px) {
@@ -319,6 +268,7 @@ a {
 	.col-sm-1 {width: 8.332%;}
 
 }
+
 
 @media screen and (min-width: 1024px) {
 
