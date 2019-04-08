@@ -33,7 +33,7 @@ module.exports = {
             })
         },
         {
-            test:/\.(jpe?g|png|gif|svg)$/,
+            test:/\.(jpg|png|gif|svg)$/,
             use:[
                {
                 loader:'url-loader',
@@ -41,9 +41,20 @@ module.exports = {
                     limit:40000,
                     outputPath:'./images'
                }
-                },
-                'image-webpack-loader'
+                },{
+                loader:'image-webpack-loader'
+                }
         ]
+        },
+        {
+            test:/\.(woff|woff2|eot|ttf|svg)$/,
+            use:[{
+                loader:'file-loader',
+                options:{
+                    outputPath:'css/fonts',
+                    name:'[name].[ext]'
+                }
+            }]
         }
     ]
     },
