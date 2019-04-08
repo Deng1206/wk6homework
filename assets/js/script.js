@@ -1,4 +1,7 @@
 let $ =require('jquery');
+import 'bootstrap';
+import '../css/style.css';
+
 
 $(document).ready(function () {
 	// when a hanburger menu is clicked
