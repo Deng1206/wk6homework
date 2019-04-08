@@ -86,6 +86,39 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./assets/css/bootstrap.min.css":
+/*!**************************************!*\
+  !*** ./assets/css/bootstrap.min.css ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./assets/css/bootstrap.min.css?");
+
+/***/ }),
+
+/***/ "./assets/css/normalize.css":
+/*!**********************************!*\
+  !*** ./assets/css/normalize.css ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./assets/css/normalize.css?");
+
+/***/ }),
+
+/***/ "./assets/css/style.css":
+/*!******************************!*\
+  !*** ./assets/css/style.css ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./assets/css/style.css?");
+
+/***/ }),
+
 /***/ "./assets/js/script.js":
 /*!*****************************!*\
   !*** ./assets/js/script.js ***!
@@ -94,7 +127,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n\r\n\r\n\r\njquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {\r\n\t// when a hanburger menu is clicked\r\n\tlet $ul = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".nav__list\"),\r\n\t\t $menu = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".nav__menu\");\r\n\r\n\tjquery__WEBPACK_IMPORTED_MODULE_0___default()($menu).click(function () {\r\n\t\t// toggle menu-click Class\r\n\t\t$ul.toggleClass(\"menu-click\");\r\n\t}); // end click event handler\r\n});\r\n\n\n//# sourceURL=webpack:///./assets/js/script.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/bootstrap.min.css */ \"./assets/css/bootstrap.min.css\");\n/* harmony import */ var _css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/normalize.css */ \"./assets/css/normalize.css\");\n/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../css/style.css */ \"./assets/css/style.css\");\n/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_css_style_css__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\njquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {\n  // when a hanburger menu is clicked\n  var $ul = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".nav__list\"),\n      $menu = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".nav__menu\");\n  jquery__WEBPACK_IMPORTED_MODULE_0___default()($menu).click(function () {\n    // toggle menu-click Class\n    $ul.toggleClass(\"menu-click\");\n  }); // end click event handler\n});\n\n//# sourceURL=webpack:///./assets/js/script.js?");
 
 /***/ }),
 

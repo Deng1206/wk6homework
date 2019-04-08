@@ -1,4 +1,7 @@
 import $ from 'jquery';
+import "../css/bootstrap.min.css";
+import "../css/normalize.css";
+import "../css/style.css";
 
 
 $(document).ready(function () {
