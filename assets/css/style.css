@@ -1,3 +1,5 @@
 @import "bootstrap.min.css";
+@import "normalize.css";
+@import "body/fonts.css";
 @import "body/body.css";
 @import "body/media.css";
