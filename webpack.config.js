@@ -19,6 +19,18 @@ module.exports = {
                     presets:['@babel/preset-env']
                 }
             }
+        }, {
+            test:/\.css$/,
+            use:ExtractTextPlugin.extract({
+                use:[{
+                    loader:'css-loader',
+                    options:{
+                        url:false
+                    }
+                },{
+                    loader:'postcss-loader'
+                }]
+            })
         },
         {
             test:/\.(jpe?g|png|gif|svg)$/,
@@ -34,23 +46,6 @@ module.exports = {
         ]
         }
     ]
-    },
-    module:{
-        rules:[
-            {
-                test:/\.css$/,
-                use:ExtractTextPlugin.extract({
-                    use:[{
-                        loader:'css-loader',
-                        options:{
-                            url:false
-                        }
-                    },{
-                        loader:'postcss-loader'
-                    }]
-                })
-            }
-        ]
     },
     plugins:[
         new ExtractTextPlugin('./css/style.css'),
