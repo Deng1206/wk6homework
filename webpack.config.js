@@ -6,12 +6,11 @@ module.exports = {
     entry:'./assets/js/script.js',
     output:{
         path:path.join(__dirname,'./dist'),
-        filename:'bundle.[chunkhash].js',
-        publicPath:'./dist/'
+        filename:'bundle.[chunkhash].js'
     },
     module:{
         rules:[{
-            test:/\.(js)$/,
+            test:/\.js$/,
             exclude:/(node_modules)/,
             use:{
                 loader:'babel-loader',
@@ -38,9 +37,9 @@ module.exports = {
                {
                 loader:'url-loader',
                 options:{
-                    limit:1000,
+                    limit:40000,
                     outputPath:'./images'
-               }
+                    }
                 },
                 'image-webpack-loader'
                 
@@ -51,7 +50,7 @@ module.exports = {
             use:[{
                 loader:'file-loader',
                 options:{
-                    outputPath:'css/fonts',
+                    outputPath:'./css/fonts',
                     name:'[name].[ext]'
                 }
             }]
@@ -59,9 +58,12 @@ module.exports = {
     ]
     },
     plugins:[
-        new ExtractTextPlugin('css/style.css'),
+        new ExtractTextPlugin('./css/style.css'),
         new HtmlWebpackPlugin({
             template:'assets/index.html'
         })
-    ]
+    ],
+    devServer:{
+        contentBase:'dist'
+    }
 }
